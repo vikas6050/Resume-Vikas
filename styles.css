@@ -59,9 +59,9 @@ ul {
   margin-bottom: 20px; /* Add space between each education entry */
 }
 header img {
-  border-radius: 50%; /* Creates a circular shape */
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  border-radius: 20%; /* Creates a circular shape */
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the image fills the circular container */
   margin-right: 20px; /* Add spacing between the image and text */
 }
