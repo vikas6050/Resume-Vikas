@@ -70,36 +70,53 @@ header img {
 }
 /* Add custom CSS to move the navbar to the right */
 .custom-navbar {
-  position: fixed;
-  right: 0;
+  /* position: fixed; */
+  left: 0;
   top: 0;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
 }
 
-/* Add custom CSS to move the navbar to the right */
-.custom-navbar {
-  left: 0;
-  top: 0;
-  height: 80%;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
-}
-
-/* Style for the links in the navbar */
-.custom-navbar .navbar-nav .nav-link {
-  color: green; /* Text color for navbar links */
-  font-size: 20px; /* Adjust font size as needed */
-}
-
-/* Style for the brand/logo in the navbar */
-.custom-navbar .navbar-brand {
-  font-size: 20px; /* Adjust font size as needed */
-  font-weight: bold; /* Optional: Make the brand text bold */
-  padding: 10px; /* Add padding to the brand */
-}
 /* form design */
 
 .forms {
   background-color: rgb(69, 69, 184);
-  color: white;
+  color: whitesmoke;
+}
+/* Style the custom-navbar */
+.custom-navbar {
+  background: rgb(159, 93, 120) !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Style for the links in the navbar */
+.custom-navbar .navbar-nav .nav-link {
+  color: rgb(180, 189, 186) !important;
+  font-size: 18px;
+  transition: color 0.3s;
+  padding: 10px 15px; /* Add padding to create boxes */
+  border: 2px solid transparent; /* Add border for boxes */
+  border-radius: 5px; /* Rounded corners for boxes */
+  margin-right: 10px; /* Adjust spacing between boxes */
+}
+
+/* Change link color on hover */
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #ff8800 !important;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Change background color on hover */
+  border-color: #ff8800; /* Change border color on hover */
+}
+
+/* Style for the brand/logo in the navbar */
+.custom-navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
 }
