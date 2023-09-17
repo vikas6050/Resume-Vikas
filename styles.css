@@ -57,6 +57,11 @@ ul {
 }
 #education {
   margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("Image/education.avif"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
 }
 header img {
   border-radius: 20%; /* Creates a circular shape */
@@ -119,4 +124,13 @@ header img {
   font-size: 24px;
   font-weight: bold;
   padding: 20px;
+}
+
+/* adding image to about me */
+#about-me {
+  background-image: url("Image/aboutme.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
 }
