@@ -1,0 +1,60 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #babcd1;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: #c7dad4;
+  color: #36279a;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Section styles */
+section {
+  background-color: #e5e5ed;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b9c0c7;
+  color: #fff;
+}
+ul {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 20px; /* Add space below the ul element */
+}
+#education ul li {
+  margin-bottom: 20px; /* Add space between each education entry */
+}
