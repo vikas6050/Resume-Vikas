@@ -55,7 +55,7 @@ ul {
   margin-top: 10px;
   padding-bottom: 20px; /* Add space below the ul element */
 }
-#education ul li {
+#education {
   margin-bottom: 20px; /* Add space between each education entry */
 }
 header img {
@@ -64,4 +64,7 @@ header img {
   height: 150px; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the image fills the circular container */
   margin-right: 20px; /* Add spacing between the image and text */
+}
+#experience li {
+  margin-bottom: 20px; /* Add space between each education entry */
 }
