@@ -68,3 +68,32 @@ header img {
 #experience li {
   margin-bottom: 20px; /* Add space between each education entry */
 }
+/* Add custom CSS to move the navbar to the right */
+.custom-navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+}
+
+/* Add custom CSS to move the navbar to the right */
+.custom-navbar {
+  left: 0;
+  top: 0;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+}
+
+/* Style for the links in the navbar */
+.custom-navbar .navbar-nav .nav-link {
+  color: green; /* Text color for navbar links */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+/* Style for the brand/logo in the navbar */
+.custom-navbar .navbar-brand {
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: Make the brand text bold */
+  padding: 10px; /* Add padding to the brand */
+}
