@@ -143,3 +143,17 @@ header img {
   background-position: center center; /* Center the image horizontally and vertically */
   padding: 40px; /* Add padding for content inside the section */
 }
+#skills {
+  background-image: url("../Image/skill.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  color: white;
+}
+#certificates {
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+}
