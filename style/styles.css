@@ -157,3 +157,20 @@ header img {
   background-position: center center; /* Center the image horizontally and vertically */
   padding: 40px; /* Add padding for content inside the section */
 }
+.social-icons {
+  justify-content: space-between; /* Add equal space between icons */
+  align-items: left; /* Vertically center the icons */
+  padding: 20px 0; /* Add padding from the top and bottom */
+}
+
+/* Style individual social icons */
+.social-icons a {
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0 2px; /* Add horizontal spacing between icons */
+}
+
+/* Define a common width and height for the icons */
+.social-icons img {
+  width: 30px; /* Adjust the desired width for your icons */
+  height: 30px; /* Adjust the desired height for your icons */
+}
