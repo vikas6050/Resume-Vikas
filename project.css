@@ -15,7 +15,7 @@ header {
 }
 
 section {
-  text-align: center;
+  text-align: left;
   margin: 20px;
 }
 
@@ -30,5 +30,14 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #b3001b;
+}
+#credit {
+  margin-bottom: 20px; /* Add space between each education entry */
+  /* background-image: url("Image/education.jpeg"); Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  background-color: aqua;
 }

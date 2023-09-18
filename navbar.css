@@ -1,0 +1,30 @@
+/* navbar.css */
+nav {
+  text-align: right; /* Align the text (navigation) to the right */
+  padding-right: 20px; /* Add some padding to the right for spacing */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-left: 20px; /* Add spacing between navigation items */
+}
+
+/* Style anchor links as buttons */
+a.button {
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: #007bff; /* Customize the button background color */
+  color: #fff; /* Customize the button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a.button:hover {
+  background-color: #0056b3; /* Change the button color on hover */
+}
