@@ -57,7 +57,7 @@ ul {
 }
 #education {
   margin-bottom: 20px; /* Add space between each education entry */
-  background-image: url("Image/education.jpeg"); /* Replace with the actual path to your image */
+  background-image: url("../Image/education.jpeg"); /* Replace with the actual path to your image */
   background-size: cover; /* Cover the entire section with the image */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-position: center center; /* Center the image horizontally and vertically */
@@ -65,7 +65,7 @@ ul {
 }
 #experience {
   margin-bottom: 20px; /* Add space between each education entry */
-  background-image: url("Image/work-experience.jpeg"); /* Replace with the actual path to your image */
+  background-image: url("../Image/work-experience.jpeg"); /* Replace with the actual path to your image */
   background-size: cover; /* Cover the entire section with the image */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-position: center center; /* Center the image horizontally and vertically */
@@ -137,7 +137,7 @@ header img {
 
 /* adding image to about me */
 #about-me {
-  background-image: url("Image/aboutme.jpeg"); /* Replace with the actual path to your image */
+  background-image: url("../Image/aboutme.jpeg"); /* Replace with the actual path to your image */
   background-size: cover; /* Cover the entire section with the image */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-position: center center; /* Center the image horizontally and vertically */
