@@ -99,18 +99,17 @@ header img {
 }
 /* Style the custom-navbar */
 .custom-navbar {
-  background: rgb(159, 93, 120) !important;
-  position: absolute;
+  background: rgb(137, 61, 92);
   top: 0;
   right: 0;
 }
 
 /* Style for the links in the navbar */
 .custom-navbar .navbar-nav .nav-link {
-  color: rgb(180, 189, 186) !important;
+  color: white;
   font-size: 18px;
   transition: color 0.3s;
-  padding: 10px 15px; /* Add padding to create boxes */
+  padding: 5px 10px; /* Add padding to create boxes */
   border: 2px solid transparent; /* Add border for boxes */
   border-radius: 5px; /* Rounded corners for boxes */
   margin-right: 10px; /* Adjust spacing between boxes */
@@ -120,9 +119,9 @@ header img {
 .custom-navbar .navbar-nav .nav-link:hover {
   color: #ff8800 !important;
   background-color: rgba(
-    255,
-    255,
-    255,
+    199,
+    159,
+    159,
     0.1
   ); /* Change background color on hover */
   border-color: #ff8800; /* Change border color on hover */
@@ -130,7 +129,7 @@ header img {
 
 /* Style for the brand/logo in the navbar */
 .custom-navbar .navbar-brand {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   padding: 20px;
 }
@@ -173,4 +172,55 @@ header img {
 .social-icons img {
   width: 30px; /* Adjust the desired width for your icons */
   height: 30px; /* Adjust the desired height for your icons */
+}
+
+/* Hide all slides by default */
+.mySlides {
+  display: none;
+  text-align: center; /* Center align content */
+  width: 100%; /* Ensure each slide takes up the full width */
+  height: 400px; /* Set the fixed height for the slides; adjust as needed */
+}
+
+/* Style headings and paragraphs within slides */
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mySlides h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.mySlides p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Set a fixed height for the slideshow container */
+#slideshow-container {
+  max-width: 100%; /* Ensure the container takes up the full width */
+  height: 400px; /* Set the fixed height for the slideshow container; adjust as needed */
+  overflow: hidden;
+}
+/* Stylish message */
+/* Additional styles for the heading if needed */
+.stylish-message h1 {
+  font-size: 100px; /* Font size */
+  font-weight: bold; /* Bold text */
+  color: blue;
+}
+.stylish2 h1 {
+  font-size: 50px; /* Font size */
+  font-weight: bold; /* Bold text */
+  color: green;
+}
+.stylish2 p {
+  font-size: 30px; /* Font size */
+  font-weight: bold; /* Bold text */
+  color: rgb(70, 155, 114);
 }
