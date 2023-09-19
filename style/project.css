@@ -41,3 +41,21 @@ button:hover {
   padding: 40px; /* Add padding for content inside the section */
   background-color: aqua;
 }
+#movie {
+  margin-bottom: 20px; /* Add space between each education entry */
+  /* background-image: url("Image/education.jpeg"); Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  background-color: rgb(175, 199, 132);
+}
+#bike {
+  margin-bottom: 20px; /* Add space between each education entry */
+  /* background-image: url("Image/education.jpeg"); Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  background-color: rgb(159, 208, 214);
+}
