@@ -1,0 +1,176 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #babcd1;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: #c7dad4;
+  color: #36279a;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Section styles */
+section {
+  background-color: #e5e5ed;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b9c0c7;
+  color: #fff;
+}
+ul {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 20px; /* Add space below the ul element */
+}
+#education {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/education.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+}
+#experience {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/work-experience.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+}
+
+header img {
+  border-radius: 20%; /* Creates a circular shape */
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image fills the circular container */
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+#experience li {
+  margin-bottom: 20px; /* Add space between each education entry */
+}
+/* Add custom CSS to move the navbar to the right */
+.custom-navbar {
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+}
+
+/* form design */
+
+.forms {
+  background-color: rgb(69, 69, 184);
+  color: whitesmoke;
+}
+/* Style the custom-navbar */
+.custom-navbar {
+  background: rgb(159, 93, 120) !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Style for the links in the navbar */
+.custom-navbar .navbar-nav .nav-link {
+  color: rgb(180, 189, 186) !important;
+  font-size: 18px;
+  transition: color 0.3s;
+  padding: 10px 15px; /* Add padding to create boxes */
+  border: 2px solid transparent; /* Add border for boxes */
+  border-radius: 5px; /* Rounded corners for boxes */
+  margin-right: 10px; /* Adjust spacing between boxes */
+}
+
+/* Change link color on hover */
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #ff8800 !important;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Change background color on hover */
+  border-color: #ff8800; /* Change border color on hover */
+}
+
+/* Style for the brand/logo in the navbar */
+.custom-navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* adding image to about me */
+#about-me {
+  background-image: url("../Image/aboutme.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+}
+#skills {
+  background-image: url("../Image/skill.jpeg"); /* Replace with the actual path to your image */
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  color: white;
+}
+#certificates {
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+}
+.social-icons {
+  justify-content: space-between; /* Add equal space between icons */
+  align-items: left; /* Vertically center the icons */
+  padding: 20px 0; /* Add padding from the top and bottom */
+}
+
+/* Style individual social icons */
+.social-icons a {
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0 2px; /* Add horizontal spacing between icons */
+}
+
+/* Define a common width and height for the icons */
+.social-icons img {
+  width: 30px; /* Adjust the desired width for your icons */
+  height: 30px; /* Adjust the desired height for your icons */
+}

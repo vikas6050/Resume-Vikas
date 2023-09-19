@@ -1,0 +1,79 @@
+/* project.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  text-align: left;
+  margin: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #b3001b;
+}
+#credit {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/CreditEDA.avif");
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  background-color: aqua;
+}
+#movie {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/rsvp.webp");
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  color: whitesmoke;
+}
+#bike {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/bike.jpeg");
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  color: blue;
+}
+#Lead {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/lead.jpeg");
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  color: white;
+}
+#Telecom {
+  margin-bottom: 20px; /* Add space between each education entry */
+  background-image: url("../Image/Telecom.png");
+  background-size: cover; /* Cover the entire section with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  padding: 40px; /* Add padding for content inside the section */
+  color: white;
+}
