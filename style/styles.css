@@ -73,9 +73,9 @@ ul {
 }
 
 header img {
-  border-radius: 20%; /* Creates a circular shape */
-  width: 150px; /* Adjust the width as needed */
-  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%; /* Creates a circular shape */
+  width: 350px; /* Adjust the width as needed */
+  height: 350px; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the image fills the circular container */
   margin-right: 20px; /* Add spacing between the image and text */
 }
@@ -217,10 +217,10 @@ header img {
 .stylish2 h1 {
   font-size: 50px; /* Font size */
   font-weight: bold; /* Bold text */
-  color: green;
+  color: rgb(178, 78, 31);
 }
 .stylish2 p {
   font-size: 30px; /* Font size */
   font-weight: bold; /* Bold text */
-  color: rgb(70, 155, 114);
+  color: rgb(178, 78, 114);
 }
