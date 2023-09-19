@@ -210,7 +210,7 @@ header img {
 /* Stylish message */
 /* Additional styles for the heading if needed */
 .stylish-message h1 {
-  font-size: 100px; /* Font size */
+  font-size: 80px; /* Font size */
   font-weight: bold; /* Bold text */
   color: blue;
 }
