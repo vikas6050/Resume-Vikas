@@ -15,9 +15,12 @@ body {
 /* Header styles */
 header {
   text-align: center;
-  background-color: #c7dad4;
-  color: #36279a;
-  padding: 20px;
+  background-image: url("../Image/Navy.jpg"); /* Replace with the actual path to your header image */
+  background-size: cover; /* Cover the entire header with the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image horizontally and vertically */
+  color: #fff; /* Text color for the header */
+  padding: 100px 0; /* Add padding for content inside the header */
 }
 
 header h1 {
@@ -176,7 +179,6 @@ header img {
 
 /* Hide all slides by default */
 .mySlides {
-  display: none;
   text-align: center; /* Center align content */
   width: 100%; /* Ensure each slide takes up the full width */
   height: 400px; /* Set the fixed height for the slides; adjust as needed */
@@ -192,35 +194,11 @@ header img {
 }
 
 .mySlides h1 {
-  font-size: 24px;
-  color: #333;
+  font-size: 50px;
+  color: blue;
 }
 
 .mySlides p {
-  font-size: 16px;
-  color: #666;
-}
-
-/* Set a fixed height for the slideshow container */
-#slideshow-container {
-  max-width: 100%; /* Ensure the container takes up the full width */
-  height: 400px; /* Set the fixed height for the slideshow container; adjust as needed */
-  overflow: hidden;
-}
-/* Stylish message */
-/* Additional styles for the heading if needed */
-.stylish-message h1 {
-  font-size: 80px; /* Font size */
-  font-weight: bold; /* Bold text */
-  color: blue;
-}
-.stylish2 h1 {
-  font-size: 50px; /* Font size */
-  font-weight: bold; /* Bold text */
-  color: rgb(178, 78, 31);
-}
-.stylish2 p {
-  font-size: 30px; /* Font size */
-  font-weight: bold; /* Bold text */
-  color: rgb(178, 78, 114);
+  font-size: 24px;
+  color: red;
 }
