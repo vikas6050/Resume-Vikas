@@ -15,7 +15,7 @@ body {
 /* Header styles */
 header {
   text-align: center;
-  background-image: url("../Image/Navy.jpg"); /* Replace with the actual path to your header image */
+  background-image: url("../Image/sea-image.jpg"); /* Replace with the actual path to your header image */
   background-size: cover; /* Cover the entire header with the image */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-position: center center; /* Center the image horizontally and vertically */
