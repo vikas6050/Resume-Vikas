@@ -20,3 +20,23 @@ function showSlides() {
     setTimeout(showSlides, 4000);
 }
 
+// Updating current time in slide 
+function updateCurrentTime() {
+    var currentTimeElement = document.getElementById("currentTime");
+    var currentTime = new Date();
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+
+    // Format the time as HH:MM:SS
+    var formattedTime = hours + ":" + minutes + ":" + seconds;
+
+    // Update the content of the element
+    currentTimeElement.textContent = "Time(IST): " + formattedTime;
+}
+
+// Call the function to update the time initially
+updateCurrentTime();
+
+// Update the time every second
+setInterval(updateCurrentTime, 1000);
