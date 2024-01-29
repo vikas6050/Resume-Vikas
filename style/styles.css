@@ -82,9 +82,7 @@ header img {
   object-fit: cover; /* Ensures the image fills the circular container */
   margin-right: 20px; /* Add spacing between the image and text */
 }
-#experience li {
-  margin-bottom: 20px; /* Add space between each education entry */
-}
+
 /* Add custom CSS to move the navbar to the right */
 .custom-navbar {
   /* position: fixed; */
@@ -220,4 +218,35 @@ header img {
 .mySlides p {
   font-size: 24px;
   color: red;
+}
+
+/* CSS for Experience */
+#experience ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+#experience li li {
+  list-style-type: circle;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#experience li ul {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+#experience p {
+  margin: 0;
+  color: #d84a23;
+}
+#experience h3 {
+  font-size: 30px;
+  color: #0066cc;
+  margin-bottom: 5px;
+}
+#experience h2 {
+  font-size: 32px;
+  color: #259b2d;
+}
+#experience {
+  margin-top: 20px;
 }
